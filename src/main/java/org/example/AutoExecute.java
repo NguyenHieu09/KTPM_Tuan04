@@ -1,19 +1,3 @@
-# KTPM_Tuan04: Visualizing distance from the main sequence and other Clean Architecture metrics in Java
-
-### File "report.xml" sẽ chứa thông tin về các phụ thuộc giữa các gói trong dự án "Library-Assistant" dưới dạng một tài liệu XML.
-![img.png](img/img.png)
-
-### Xem thông tin phụ thuộc các gói bắt đầu bằng "be"
-![img_1.png](img/img_1.png)
-
-### Hiển thị và phân tích thông tin phụ thuộc giữa các gói trong dự án Java, dựa trên thông tin trong tệp XML báo cáo
-![img.png](img/img_2.png)
-
-### Hiển thị giao diện JDepend, cho phép bạn xem thông tin về các phụ thuộc giữa các gói trong dự án "Library-Assistant"
-![img.png](img/img_3.png)
-### Viết mã java để thực thi tự động.
-
-```java
 package org.example;
 
 import jdepend.xmlui.JDepend;
@@ -65,4 +49,3 @@ public class AutoExecute {
         }
     }
 }
-
